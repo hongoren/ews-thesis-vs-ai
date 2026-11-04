@@ -6,6 +6,8 @@ This project revisits my 2016 PhD thesis, *An Empirical Study on Credit Early Wa
 
 Here I reproduce the thesis model exactly, then compare it with gradient boosting on the same data.
 
+**[View the visual report](https://hongoren.github.io/ews-thesis-vs-ai/results/report.html)**
+
 ## Data
 
 - 202,615 firm-quarters, 15,593 SME and corporate borrowers, 1,307 defaults
@@ -36,7 +38,7 @@ The AI model does not win every time. Trained through 2009 and tested on 2010, r
 
 **4. Main drivers:** account activity (number of debit transactions), cash share of exposure, average balance, number of lending banks, and staff count. Firms with zero staff recorded default about 10 times more often than the rest, which most likely reflects missing data acting as a warning sign.
 
-Full tables: [`results/`](results/). Visual report: [`results/report.html`](results/report.html).
+Full tables: [`results/`](results/). Visual report: [online](https://hongoren.github.io/ews-thesis-vs-ai/results/report.html) or [`results/report.html`](results/report.html).
 
 ## Method
 
