@@ -1,0 +1,9 @@
+# Raw bank data is private and never committed
+data/
+*.txt
+*.pkl
+/m1_full.csv
+/results.csv
+/pooled.csv
+/importance.csv
+__pycache__/
